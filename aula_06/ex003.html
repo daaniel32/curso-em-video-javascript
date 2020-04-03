@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Meu primeiro programa</title>
+        <style>
+            body {
+                background-color: rgb(105, 105, 173);
+            }
+            h1 {
+                color: rgb(225, 212, 22));
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Olá, mundo!</h1>
+        <p>Já me livrei da maldição!!</p>
+        <script>
+            
+           var n1 = Number.parseInt(window.prompt('Digite um número: ')) // windows.prompt retorna uma string, mesmo colocando um número
+           var n2 = Number.parseInt(window.prompt('Digite outro número: '))
+           var s = n1 + n2 
+           window.alert(`A soma entre ${n1} e ${n2} é igual a ${s}` ) 
+           
+           // (number + number) para adição
+           // string + string para concatenação
+           // Obs: para numeros inteiro utilizo o Number.parseInt(n)
+           // Obs: para numeros com ponto flutuante utilizo o Number.parseFloat(N)
+           // Obs:: para que o javascript decida eu utilizo o Number(n)
+           // para converter número para string eu utilizo String(n) ou n.toString
+           // var s = 'Javascript'
+           // exemplo: 'Eu estou aprendendo s' // não faz interpolação
+           // exemplo: 'Eu estou aprendendo' + s // usa concatenação
+           // exemplo: `Eu estou aprendendo $(s)` //usa template string tecnica nova dos atuais ecmas, usa-se crase e o $ para declarar as      variáveis sem precisar concatena-las
+           // s.length  //quantos caracteres a sttring tem
+           // s.toUppercase()  // tudo para letras maiúsculas
+           // s.toLowerCase()  // tudo para letras minúsculas
+        </script>
+
+    </body>
+</html>

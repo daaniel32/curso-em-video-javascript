@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font: 20pt Arial;
+        }
+    </style>
+</head>
+<body>
+    <script>
+        var nome = window.prompt('Digite o seu nome: ')
+        document.write(`Olá, <strong> ${nome}</strong>! Seu nome tem ${nome.length} letras.<br/> `) 
+        document.write(`Seu nome em letras maiúsculas é: ${nome.toUpperCase()}.<br/>`)
+        document.write(`Seu nome em letras minúsculas é: ${nome.toLowerCase()}.`)
+
+        // extra para converter números, testar no node
+       // exemplo: var n1 = 1543.5
+       // n1.toFixed(2) ele dará o retorno 1545.50
+       // para trocar o ponto por vírgula n1.toFixed(2).replace(" , ") sendo  1545.50 e  ficando  1545,50
+       // para converter em número monetário. No caso será em moeda REAL
+       // n1.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'})
+    </script>
+</body>
+</html>
+
