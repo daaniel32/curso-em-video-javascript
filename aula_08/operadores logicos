@@ -1,0 +1,5 @@
+! -> negação
+&& -> conjunção ou o "e" logico. ex banana e maçã são frutas.
+|| -> disjunções é o "ou" lógico
+
+em uma operação onde existe operadores aritimeticos, relacionais e logicos. Primeiro será feito os operadores aritimeticos, depois os relacionais por fim os lógico.

@@ -1,0 +1,9 @@
+var = 3
+n = n + 4 pode ser n +n = 4
+n = n - 4 pode ser -= 4
+n = n * 4 pode ser n *= 4
+n = n / 4 pode ser n /= 4
+n = n ** 4 pode ser n **= 4
+n = % 4 pode ser n %= 4
+
+Obs: as operações acima só podem ser feitas ex: n = n + 4 pode ser n +n = 4 ; se o a atribuição n receber n ; logo se n receber x não podemos usa a expressão +=; *= ou etc...

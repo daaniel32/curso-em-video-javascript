@@ -1,0 +1,5 @@
+x = x + 1 pode ser feito x ++ 
+x = x - 1 pode ser feito x -- 
+
+sendo que se eu colocar x ++ ele soma depois (pos incremento)
+se for colocado ++x é somado antes e depois mostrado o resultado(pré-incremento)
